@@ -16,7 +16,29 @@ Example Data lies in `example_data`:
 - argparse
 - yaml
 
+## Usage
+Example call:
+`python generate_honesty_box.py --out example_data/list.xlsx example_data/debt_conf.yaml example_data/example_people.csv`
 
+Get help with `python generate_honesty_box.py -h`:
+
+```
+usage: generate_honesty_box.py [-h] [--out OUT] [--cap CAP]
+                               output_configuration csv_path
+
+positional arguments:
+  output_configuration  Specify Columns to show. Must have aliases for 'name',
+                        'budget' and 'pay_in' and minimum 1 alias beginning
+                        with 'buy'. Others will not be recognized.
+  csv_path              Specify Name and Debt CSV File location. Must be
+                        provided.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --out OUT, --output_path OUT
+                        Specify where to put the xlsx file.
+  --cap CAP, -c CAP     Where to put the cap to stop people making debt.
+```
 
 
 
