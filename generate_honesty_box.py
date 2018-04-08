@@ -30,25 +30,16 @@ parser.add_argument(
     type=int
 )
 args = parser.parse_args()
-print args
-
-debt_conf_path = args.output_configuration
-csv_path = args.csv_path
-out = args.out
-
-print debt_conf_path
-print csv_path
-print out
-print args.cap
 
 
-with open(debt_conf_path, 'r') as stream:
+with open(args.output_configuration, 'r') as stream:
     c = yaml.load(stream)
     # TODO: Try Except logic
-schulden = pd.read_csv(csv_path, encoding='utf-8')
+schulden = pd.read_csv(args.csv_path, encoding='utf-8')
 schulden.sort_values('name', inplace=True)
 schulden.reset_index(drop=True, inplace=True)
-buy_keys = [c[k] for k in c if k.startswith('buy')]
+buy_keys = [c[k] for k in sorted([k for k in c if k.startswith('buy')])]
+# unfortunately this hack is needed for sorted cols, so you can specify order
 
 budget_col = len(buy_keys) * 10 + 1
 pay_in_col = len(buy_keys) * 10 + 2
