@@ -1,31 +1,31 @@
-"name","val"
-"Alice",-40.50
-"Bob",-6.30
-"John Doe",27.40
-"Sneezy",-1.20
-"Sleepy",-10.50
-"Dopey",-22.30
-"Doc",11.80
-"Happy",-6.10
-"Bashful",11.50
-"Grumpy",-25.10
-"Kerstin Klingman",18.1
-"Clarisa Chi",24.3
-"Bee Bottoms",14.9
-"Patience Parmer",8.3
-"Joanna July",-0.4
-"Willette Warner",8.6
-"Rachael Rustad",-4.7
-"Anthony Allgood",0.9
-"Tyson Traughber",-6.5
-"Harriette Hutton",-31.3
-"Dianne Downing",-8.9
-"Latoyia Lowenthal",-18.7
-"Dagmar Dubreuil",1.3
-"Madie Mangrum",-34.4
-"Susy Schiffer",12.1
-"Sherlene Stingley",-4.7
-"Jerrold Jelinek",-16.2
-"Michaele Marcoux",17.7
-"Lanora Lumb",-29.0
-"Fermina Fossum",28.2
+name,val,1,0.8,0.5,0.2,einzahlung
+"Alice",-40.50,2,4,,,50
+"Bob",-6.30,,,,,
+"John Doe",27.40,,,,,
+"Sneezy",-1.20,,,,,
+"Sleepy",-10.50,,,,,
+"Dopey",-22.30,,,,,
+"Doc",11.80,,,,,
+"Happy",-6.10,,,,,
+"Bashful",11.50,,,,,
+"Grumpy",-25.10,,,,,
+"Kerstin Klingman",18.1,,,,,
+"Clarisa Chi",24.3,,,,,
+"Bee Bottoms",14.9,,,,,
+"Patience Parmer",8.3,,,,,
+"Joanna July",-0.4,,,,,
+"Willette Warner",8.6,,,,,
+"Rachael Rustad",-4.7,,,,,
+"Anthony Allgood",0.9,,,,,
+"Tyson Traughber",-6.5,,,,,
+"Harriette Hutton",-31.3,,,,,
+"Dianne Downing",-8.9,,,,,
+"Latoyia Lowenthal",-18.7,,,,,
+"Dagmar Dubreuil",1.3,,,,,
+"Madie Mangrum",-34.4,,,,,
+"Susy Schiffer",12.1,,,,,
+"Sherlene Stingley",-4.7,,,,,
+"Jerrold Jelinek",-16.2,,,,,
+"Michaele Marcoux",17.7,,,,,
+"Lanora Lumb",-29.0,,,,,
+"Fermina Fossum",28.2,,,,,
