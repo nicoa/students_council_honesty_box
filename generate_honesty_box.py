@@ -40,7 +40,7 @@ else:
 
 # ### read csv ###
 
-schulden = pd.read_csv(args.csv_path, encoding='utf-8', sep=",", decimal=".")
+schulden = pd.read_csv(args.csv_path, encoding='utf-8', sep=",", decimal=",")
 if not (
     all([x in schulden.columns for x in ['name', 'val', 'einzahlung']]) or
     (('name' in schulden.columns) & (len(schulden.columns) > 1))
