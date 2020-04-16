@@ -53,6 +53,7 @@ if 'val' not in schulden.columns:
     schulden['val'] = 0
 schulden.fillna(0, inplace=True)
 
+schulden["val"] = schulden["val"].astype(float)
 for col in np.setdiff1d(schulden.columns, ['name', 'val', 'einzahlung']):
     schulden['val'] -= schulden[col] * float(col.replace(",", "."))
     schulden[col].astype(str)
