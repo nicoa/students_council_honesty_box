@@ -70,7 +70,7 @@ schulden.to_csv(csv_new, sep=",", decimal=".", encoding="utf-8", index=False)
 
 # ### write to xlsx  ###
 with open(args.output_configuration, "r") as stream:
-    c = yaml.load(stream)
+    c = yaml.load(stream, Loader=yaml.FullLoader)
     # TODO: Try Except logic
 
 buy_keys = [c[k] for k in sorted([k for k in c if k.startswith("buy")])]
